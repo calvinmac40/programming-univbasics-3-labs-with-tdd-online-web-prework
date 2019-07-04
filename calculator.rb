@@ -3,4 +3,4 @@ second_number =  expect(second_number).not_to equal(0)
 sum = expect(sum).to eq(first_number+second_number)
 difference =  expect(difference).to eq(first_number-second_number)
 product =  expect(product).to eq(first_number*second_number)
-quotient = 
+quotient =  expect(quotient).to eq(first_number/second_number)
